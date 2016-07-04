@@ -1,9 +1,10 @@
 var R = require('ramda')
 
 // CURRYING______________________________________________________________
-/*Currying is the process of turning a function that expects multiple
-parameters into one that, when supplied fewer parameters, returns a new
-function that awaits the remaining ones.*/
+/*In mathematics and computer science, currying is the technique of translating
+the evaluation of a function that takes multiple arguments
+(or a tuple of arguments) into evaluating a sequence of functions,
+each with a single argument.*/
 
 console.log(R.multiply(2,10));
 
